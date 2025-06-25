@@ -17,3 +17,12 @@
   ],
   "version": 4
 }
+
+YNC    include/config/auto.conf.cmd
+  LEX     scripts/kconfig/lexer.lex.c
+/bin/sh: 1: flex: not found
+make[3]: *** [scripts/Makefile.host:9: scripts/kconfig/lexer.lex.c] Erro 127
+make[2]: *** [Makefile:692: syncconfig] Erro 2
+/usr/src/linux-source-6.8.0/Makefile:770: include/config/auto.conf.cmd: Arquivo ou diretório inexistente
+make[1]: *** [/usr/src/linux-source-6.8.0/Makefile:793: include/config/auto.conf.cmd] Erro 2
+make: *** [Makefile:240: __sub-make] Erro 2
