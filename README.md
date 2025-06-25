@@ -1,1 +1,1 @@
-# Atividade-pr-tica-de-Sistema-operacionais
+# Atividade-prática-de-Sistema-operacionais
